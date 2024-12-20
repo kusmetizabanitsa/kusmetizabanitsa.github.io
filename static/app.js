@@ -58,6 +58,7 @@ const kusmeti = [
         btn.addEventListener("click", () => {
             const baba =  Math.floor(Math.random() * kusmeti.length)
             random.textContent = kusmeti[baba];
+            btn.remove()
         });
 
 
